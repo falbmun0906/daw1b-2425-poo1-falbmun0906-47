@@ -1,4 +1,4 @@
-class Cuenta(val numeroCuenta: String, var saldo: Double) {
+class Cuenta(val numeroCuenta: String, var saldo: Double = 0.0) {
 
     fun consultarSaldo(): String {
         return ("Saldo: $saldo")
@@ -20,8 +20,4 @@ class Cuenta(val numeroCuenta: String, var saldo: Double) {
         }
         return false
     }
-
-    /*fun transferirSaldo(persona1: Persona, persona2: Persona, numeroCuenta1: String, numeroCuenta2: String) {
-        persona1.
-    }*/
 }
